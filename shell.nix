@@ -6,7 +6,7 @@ mkShell {
     kotlin-language-server
   ];
 
-  # kotlinc  -include-runtime ./src/hello.kt -d hello.jar
+  BUILD = "kotlinc  -include-runtime ./src/hello.kt -d hello.jar";
 
 
 }
